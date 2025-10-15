@@ -59,15 +59,15 @@ if np.linalg.norm(delta_twist) < 1e-4 or not within_joint_limit:
 ```
 
 # Usage
-# 1. Task Running and Data Collection
+## 1. Task Running and Data Collection
 Running the following command will first search for a random seed for the target collection quantity (default is 100), and then replay the seed to collect data.
 ```cmd
 bash run_task.sh ${task_name} ${gpu_id}
 # As example: bash run_task.sh block_hammer_beat 0
 ```
-# 2. Task Config
+## 2. Task Config
 Data collection configurations are located in the config folder, corresponding to each task. The most important setting is head_camera_type (default is D435), which directly affects the visual observation collected.
-# 3. Decoupled Interaction Framework
+## 3. Decoupled Interaction Framework
 Process Data for DP3 training after collecting data (In the root directory), and input the task name and the amount of data you want your policy to train with:
 ```cmd
 python script/preprocess_pkl.py ${root_directory}
