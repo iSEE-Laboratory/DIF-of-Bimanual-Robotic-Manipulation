@@ -89,3 +89,21 @@ bash eval.sh ${task_name} ${expert_data_num} ${checkpoint_num} ${seed} ${gpu_id}
 ```
 # Experiment & LeaderBoard
 ![LeaderBoard](./figure/DIF_Results.png)
+
+# Citation
+Please cite it if you find this work useful.
+```
+@inproceedings{Jiang2025Bimanual,
+  author       = {Jian{-}Jian Jiang and
+                  Xiao{-}Ming Wu and
+                  Yi{-}Xiang He and
+                  Ling{-}An Zeng and
+                  Yi{-}Lin Wei and
+                  Dandan Zhang and
+                  Wei{-}Shi Zheng},
+  title        = {Rethinking Bimanual Robotic Manipulation: Learning with Decoupled
+                  Interaction Framework},
+  booktitle    = {International Conference on Computer Vision},
+  year         = {2025},
+}
+```
