@@ -90,6 +90,10 @@ bash eval.sh ${task_name} ${expert_data_num} ${checkpoint_num} ${seed} ${gpu_id}
 # Experiment & LeaderBoard
 ![LeaderBoard](./figure/DIF_Results.png)
 
+# TODO
+- [x] Open source training and testing code
+- [ ] Open source weights
+
 # Citation
 Please cite it if you find this work useful.
 ```
