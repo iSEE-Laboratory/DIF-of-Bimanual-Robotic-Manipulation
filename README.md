@@ -87,3 +87,5 @@ Run the following code to evaluate DIP for a specific task:
 bash eval.sh ${task_name} ${expert_data_num} ${checkpoint_num} ${seed} ${gpu_id}
 # As example: bash eval.sh block_hammer_beat 50 3000 0 0
 ```
+# Experiment & LeaderBoard
+![LeaderBoard](./figure/DIF_Results.png)
